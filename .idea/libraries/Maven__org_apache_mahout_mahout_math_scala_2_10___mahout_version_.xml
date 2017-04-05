@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.mahout:mahout-math-scala_2.10:${mahout.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-math-scala_2.10/${mahout.version}/mahout-math-scala_2.10-${mahout.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-math-scala_2.10/${mahout.version}/mahout-math-scala_2.10-${mahout.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-math-scala_2.10/${mahout.version}/mahout-math-scala_2.10-${mahout.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

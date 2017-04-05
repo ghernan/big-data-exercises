@@ -15,10 +15,13 @@ public class MovieRecommenderTest {
     public void testDataInfo() throws IOException, TasteException {
         //download movies.txt.gz from 
         //    http://snap.stanford.edu/data/web-Movies.html
-        MovieRecommender recommender = new MovieRecommender("/path/to/movies.txt.gz");
+        MovieRecommender recommender = new MovieRecommender("movies.csv");
         assertEquals(7911684, recommender.getTotalReviews());
+        System.out.println("Done.");
         assertEquals(253059, recommender.getTotalProducts());
+        System.out.println("Done.");
         assertEquals(889176, recommender.getTotalUsers());
+        System.out.println("Done.");
 
         List<String> recommendations = recommender.getRecommendationsForUser("A141HP4LYPWMSR");
         assertThat(recommendations, hasItem("B0002O7Y8U"));
